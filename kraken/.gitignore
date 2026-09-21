@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+# kraken runtime dirs (populated by docker volume mounts)
+kraken/data/
+kraken/models/

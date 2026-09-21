@@ -1,0 +1,153 @@
+{
+ "_note": "Index volumes found via the Indexs column (TYPEINDEX_PR[]) on the agatha search form. Each entry MUST carry a confirmed `structure` before it is searched \u2014 index layout is NOT fixed (usually year->names alphabetical, sometimes year/month->names, sometimes year+unsorted). An entry whose structure is `unverified` MUST have its structure discovered (OCR a small page spread) before any search, or hits will be missed. structure values: 'surname-alphabetical (grouped by year)' | 'year-month->names' | 'year+unsorted' | 'unverified'.",
+ "Antwerpen OLV (PARISH_ID 13)": {
+  "baptism_index": [
+   {
+    "bookpart": 6081,
+    "span": "1560-1580",
+    "label": "Alphabetical index of baptism and birth certificates",
+    "structure": "surname-alphabetical (grouped by year)",
+    "structure_verified": true,
+    "structure_evidence": "OCR of page 5 (2026-09-15): surnames alphabetical, year headers (1565/1566/1567) group the entries, each line = first name + father's name + year + month + day"
+   },
+   {
+    "bookpart": 6083,
+    "span": "1581-1601",
+    "label": "Alphabetical index of baptism and birth certificates",
+    "structure": "unverified",
+    "structure_verified": false,
+    "structure_evidence": "Same series as 6081 (expected surname-alphabetical, grouped by year) but NOT yet OCR-verified \u2014 discover before use"
+   },
+   {
+    "bookpart": 6082,
+    "span": "1601-1624",
+    "label": "Alphabetical index of baptism and birth certificates",
+    "structure": "unverified",
+    "structure_verified": false,
+    "structure_evidence": "Same series as 6081 (expected surname-alphabetical, grouped by year) but NOT yet OCR-verified \u2014 discover before use"
+   }
+  ],
+  "marriage_index": [
+   {
+    "bookpart": 6427,
+    "span": "1542-1612",
+    "label": "Alphabetical index of nuptial vow and marriage certificates",
+    "structure": "unverified",
+    "structure_verified": false,
+    "structure_evidence": "NOT yet OCR-verified \u2014 discover before use"
+   },
+   {
+    "bookpart": 6428,
+    "span": "1583-1585",
+    "label": "Alphabetical index of nuptial vow and marriage certificates",
+    "structure": "unverified",
+    "structure_verified": false,
+    "structure_evidence": "NOT yet OCR-verified \u2014 discover before use"
+   }
+  ],
+  "funeral_index": []
+ },
+ "Antwerpen Sint-Joris (PARISH_ID 20)": {
+  "baptism_index": [
+   {
+    "bookpart": 98,
+    "span": "1567-1576",
+    "structure": "unverified",
+    "structure_verified": false
+   },
+   {
+    "bookpart": 6254,
+    "span": "1567-1635",
+    "structure": "unverified",
+    "structure_verified": false
+   },
+   {
+    "bookpart": 6255,
+    "span": "1567-1635",
+    "structure": "unverified",
+    "structure_verified": false
+   },
+   {
+    "bookpart": 6256,
+    "span": "1633-1649",
+    "structure": "unverified",
+    "structure_verified": false
+   },
+   {
+    "bookpart": 6258,
+    "span": "1633-1649",
+    "structure": "unverified",
+    "structure_verified": false
+   },
+   {
+    "bookpart": 6257,
+    "span": "1650-1699",
+    "structure": "unverified",
+    "structure_verified": false
+   },
+   {
+    "bookpart": 6259,
+    "span": "1650-1699",
+    "structure": "unverified",
+    "structure_verified": false
+   },
+   {
+    "bookpart": 6263,
+    "span": "1651-1675",
+    "structure": "unverified",
+    "structure_verified": false
+   },
+   {
+    "bookpart": 6264,
+    "span": "1676-1700",
+    "structure": "unverified",
+    "structure_verified": false
+   },
+   {
+    "bookpart": 6260,
+    "span": "1700-1776",
+    "label": "Repertorium Alphabeticum Puerorum (p. Callebout, copied 1729)",
+    "structure": "year-first (year headers sequential), names alphabetical WITHIN each year block",
+    "structure_verified": true,
+    "structure_evidence": "OCR 2026-09-15: title p2; 224 pages; year headers: 1706@p28, 1707@p30-33, 1708@p34-36, 1709@p38-39, 1710@p41-44 (p28-44 = 1706-1710), 1762@p200, 1766 block OPENS on p205_R (header OCR-garbled 'AN NI 1766') continuing p206_L (Zorrokens split: Joannes 9 Januarii + Franciscus 15 July + Petrus [18/29] on p205_R; Franciscus 4 Sept + Josephus on p206_L), 1773-1776@p218-224. Window 1735-1752 => ~17 year blocks, est. ~p88-180. Always read from the first (even garbled) year header to the next."
+   },
+   {
+    "bookpart": 6262,
+    "span": "1700-1784",
+    "label": "2nd baptism index 1700-1784 (distinct compilation; DIFFERENT content than 6260 — search BOTH)",
+    "structure": "year-first (year headers sequential), names alphabetical WITHIN each year block",
+    "structure_verified": true,
+    "structure_evidence": "OCR 2026-09-15: 230 pages; year headers 1732@p115, 1766@p200_L, 1767@p200_R, 1769@p204_L (block starts at D), 1772@p208_R, 1774@p212; names alphabetical within year. 1735-1752 window => year blocks est. ~p118-165 (density ~p115=1732, p200=1766; refine by locating actual headers)."
+   },
+   {
+    "bookpart": 6265,
+    "span": "1701-1725",
+    "structure": "unverified",
+    "structure_verified": false
+   },
+   {
+    "bookpart": 6266,
+    "span": "1726-1750",
+    "structure": "surname-alphabetical (grouped by year)",
+    "structure_verified": true,
+    "structure_evidence": "OCR 2026-09-15: title p1 (Index baptizatorum ... ab anno 1726 usque ad annum 1750); p2_R opens A-section (Aaelte...Abels 1730); year headers sit inside surname blocks (1730/1731/1744/1738 observed); A ends p5_R (Auvray), B starts p5_R. 134 pages, single landscape pages 3000x2337, columns ~120 lines."
+   },
+   {
+    "bookpart": 6267,
+    "span": "1777-1796",
+    "structure": "unverified",
+    "structure_verified": false
+   }
+  ],
+  "marriage_index": [],
+  "funeral_index": [],
+  "register_1766_map": "register vol 6294 (baptisms 1760-1774): 1766 = p87(partial)-p103, see meta.json page_month_map",
+  "register_volumes": [
+    { "bookpart": 6292, "span": "1729-1742", "pages": 230, "anchors_2026_09_15": "1741@p148L(6260 cross-ref), Aprilis 1742@p226L, Maii heading p226R (bottom), Maius 1742@p227L/R, Junius@p228. CONFIRMED: Joannes f. Petri Zorrokens, m. Joanna Catharina Schevers, 1 Maii 1742, p226_R entry #1." },
+    { "bookpart": 6293, "span": "1742-1760", "pages": 284, "anchors_2026_09_15": "Aprilis 1749@p100, Junius 1749@p103, December 1749@p109, Jan 1750@p110-111, Mart 1750@p113-114, Aprilis 1750@p115, Mei 1750@p116 (day 14 = Joanna+Catharina f. Joannis de Donders), junius 1750@p117, Jul 1751@p134 (Fredericus f. Petri Zorrokes, m. Elizabethe Berckelaer, 13), Dec 1750@p126 (Isabella Petri Zorkes p127L)" },
+    { "bookpart": 6294, "span": "1760-1774", "pages": 234 }
+  ],
+  "antwerp_parishes": "17 parishes in agatha Antwerpen municipality (PLACEPOINT_ID 12) — discovered 2026-09-15 via parish dropdown ajax; St Joris PARISH_ID 20, OLV PARISH_ID 13; full list in cache/lookup/parishes.json",
+  "note_2026_09_15": "14 index volumes enumerated (paginated: 10/page default; '1-10 of 14 results' hid 4). 1766 is covered by 6260 AND 6262 (different content \u2014 search all covering volumes). manifest URL pattern: https://agatha.arch.be/en//data/json/511/511_9000_000/511_9000_000_<seg>_000/<seg>_000.json (6262 uses seg 00123; 6260 uses 00122). Viewer page: /en/search/genealogie/<bookpart>."
+ }
+}

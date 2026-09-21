@@ -1,0 +1,41 @@
+services:
+
+  kraken:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: kraken
+
+    restart: unless-stopped
+
+    ports:
+      - "8008:8000"
+
+    volumes:
+      - ./models:/models
+      - ./data:/data
+      - D:/AI/workspace:/workspace
+      - ./app:/app
+      - kraken-cache:/root/.local/share/kraken
+
+    networks:
+      - ai-network
+
+    deploy:
+      resources:
+        limits:
+          cpus: "10.0"  # Ensures the container doesn't exceed 10 fractional CPU cores
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities:
+                - gpu
+
+volumes:
+  kraken-cache:
+
+networks:
+  ai-network:
+    external: true

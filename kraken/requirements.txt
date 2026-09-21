@@ -1,0 +1,5 @@
+git+https://github.com/mittagessen/kraken.git
+fastapi
+uvicorn[standard]
+python-multipart
+pillow
