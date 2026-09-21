@@ -4,7 +4,7 @@ This repository purpose is not to be used as-such but as an example of how to bu
 
 As such, it's only useful if you do birth research on Belgian Pre-1796 archives on Agatha (The online search environment of the State Archives of Belgium).
 
-However it can alsobe used as a proven example and starting point for building your own specific skills (ie: if you're looking for example in Italian, French archives, etc..). if you do so, please leave some comments, that will make my day ;)
+However it can also be used as a proven example and starting point for building your own specific skills (ie: if you're doing research in Italian, French archives, etc..). if you do so, please leave some comments, that will make my day ;)
 The following instructions aims to help you build your own tool using this as a base.
 
 To implement and run this you need :
