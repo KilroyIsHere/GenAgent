@@ -1,4 +1,4 @@
-# Gen-Agent (how to build your own Genealogy agentic tool-
+# Gen-Agent (how to build your own Genealogy agentic tool)
 
 This repository purpose is not to be used as-such but as an example of how to build/use agentic skills for genealogy research.
 
